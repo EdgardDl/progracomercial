@@ -1,0 +1,20 @@
+<html>
+</<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        {% for p in posts %}
+        <div>
+            <tr>
+                <th>autor: {{p.title}} | </th>
+                <th>texto: {{p.text}} | </th>
+                <th>autor: {{p.author}} | </th>
+                <hr>
+            </tr>
+        </div>
+        {% endfor %}
+    </body>
+</html>>
